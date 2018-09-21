@@ -7,4 +7,6 @@ RUN [ "cross-build-start" ]
 
 RUN pip install --index-url https://www.piwheels.org/simple picamera
 
+COPY picamera.py .
+
 RUN [ "cross-build-end" ]
