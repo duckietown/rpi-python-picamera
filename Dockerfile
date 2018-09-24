@@ -11,4 +11,4 @@ COPY picam_demo.py .
 
 RUN [ "cross-build-end" ]
 
-CMD [ "python picam_demo.py" ]
+CMD [ "./picam_demo.py" ]
