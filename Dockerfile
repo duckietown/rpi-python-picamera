@@ -11,4 +11,8 @@ COPY picam_demo.py .
 
 RUN [ "cross-build-end" ]
 
+EXPOSE 8082
+
+VOLUME ["/data"]
+
 CMD [ "./picam_demo.py" ]
